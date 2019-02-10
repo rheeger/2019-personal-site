@@ -31,7 +31,7 @@ input {
     padding: .5rem;
 }
 
-#button:hover, li:hover {
+#button:hover, ol > li:hover, li > a:hover {
     text-decoration: underline;
 }
 
@@ -62,9 +62,9 @@ main {
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;
-    align-content: flex-start;
+    align-content: center;
     margin: 0 auto;
-    height: 100vh; 
+    height: 150vh; 
 }
 
 #skills, #interests {
