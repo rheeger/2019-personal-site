@@ -2,6 +2,10 @@ body {
     font-family: 'EB Garamond', serif;
     background-color: whitesmoke;
     border: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
 }
 
 /* ABOVE THE FOLD STYLING */
@@ -62,19 +66,17 @@ main {
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;
-    align-content: center;
+    align-content: flex-start;
     margin: 0 auto;
     height: 150vh; 
 }
 
 #skills, #interests {
     width: 40%;
-    display: inline;
 }
 
 #contact {
     width: 20%;
-    display: inline;
 
 }
 
@@ -89,6 +91,10 @@ main {
 }
 .breakdown1, .breakdown2 {
     width: 50%;
+}
+
+.breakdown1 ul {
+    border-right: 1px solid black;
 }
 
 .overview, .takeaways {
